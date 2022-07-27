@@ -18,5 +18,10 @@ public class RestApiApplication {
         return "*-------Welcome to Java ----*";
     }
 
+    @GetMapping("/get1")
+    public String  getMessage1(){
+        return "*-------Welcome to Java 1 ----*";
+    }
+
 
 }
