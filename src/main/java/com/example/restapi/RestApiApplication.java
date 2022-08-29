@@ -24,4 +24,9 @@ public class RestApiApplication {
     }
 
 
+    @GetMapping("/get1")
+    public String  getMessage2(){
+        return "*-------Welcome to feature/dev7----*";
+    }
+
 }
